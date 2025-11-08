@@ -191,11 +191,13 @@
         },
         {
           "name": "Speed",
-          "ioValue": 1500
+          "ioValue": 800,
+          "currentEquation": "800"
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "Part Name",
