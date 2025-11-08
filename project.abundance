@@ -130,33 +130,6 @@
             "color": "#aad7f2",
             "bom": []
           }
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": {
-            "geometry": "move-rotate-move-text-Test-{\"startX\":0,\"startY\":0,\"fontSize\":30,\"font\":\"ROBOTO\"}-0-0-0-0-0-90-5-0-0",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
         }
       ],
       "unionType": "Fusion"
@@ -164,8 +137,8 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.7532365633581797,
-      "y": 0.3862815884476534,
+      "x": 0.8685759121224009,
+      "y": 0.27075812274368233,
       "uniqueID": "id-22",
       "ioValues": [
         {
@@ -176,90 +149,60 @@
       ]
     },
     {
-      "atomType": "Text",
-      "name": "Text",
-      "x": 0.4323264025107886,
-      "y": 0.7184115523465704,
-      "uniqueID": "id-26",
+      "atomType": "Export",
+      "name": "Export",
+      "x": 0.6908591604550804,
+      "y": 0.6660649819494585,
+      "uniqueID": "id-53",
       "ioValues": [
         {
-          "name": "Font Size",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "name": "File Type",
+          "ioValue": "STL"
         },
         {
-          "name": "Text",
-          "ioValue": "Test"
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Kreis_und_Rechteck"
         }
       ],
-      "fontFamily": "ROBOTO",
-      "selectedFontIndex": 0
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Kreis_und_Rechteck"
     },
     {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.5323264025107886,
-      "y": 0.7184115523465704,
-      "uniqueID": "id-30",
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.8979992153785799,
+      "y": 0.6877256317689531,
+      "uniqueID": "id-58",
       "ioValues": [
         {
-          "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "name": "Tool Size",
+          "ioValue": 6.35
         },
         {
-          "name": "yDist",
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
           "ioValue": 0
         },
         {
-          "name": "zDist",
-          "ioValue": 0
+          "name": "Part Name",
+          "ioValue": "Kreis_und_Rechteck"
         }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "name": "Rotate",
-      "x": 0.6323264025107885,
-      "y": 0.7184115523465704,
-      "uniqueID": "id-36",
-      "ioValues": [
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.7323264025107885,
-      "y": 0.7184115523465704,
-      "uniqueID": "id-42",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 5,
-          "currentEquation": "5"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
+      ],
+      "partName": "Kreis_und_Rechteck",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -289,31 +232,25 @@
     },
     {
       "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "id-26",
-      "ap2ID": "id-30"
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-22",
+      "ap2ID": "id-2"
     },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
-      "ap1ID": "id-30",
-      "ap2ID": "id-36"
+      "ap1ID": "id-22",
+      "ap2ID": "id-53"
     },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
-      "ap1ID": "id-36",
-      "ap2ID": "id-42"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-42",
-      "ap2ID": "id-17"
+      "ap1ID": "id-22",
+      "ap2ID": "id-58"
     }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": {},
+  "compiledBom": [],
   "filetypeVersion": 1
 }
