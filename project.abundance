@@ -24,8 +24,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 100
         }
       ]
     },
@@ -38,13 +37,12 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 100
         },
         {
           "name": "y length",
-          "ioValue": 150,
-          "currentEquation": "150"
+          "ioValue": 100,
+          "currentEquation": "100"
         }
       ]
     },
@@ -61,8 +59,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 75,
-          "currentEquation": "75"
+          "ioValue": 50,
+          "currentEquation": "50"
         },
         {
           "name": "zDist",
@@ -80,7 +78,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-rectangle-100-150-0-75-0",
+            "geometry": "move-rectangle-100-100-0-50-0",
             "dimension": "2D",
             "plane": {
               "origin": [
@@ -143,8 +141,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         }
       ]
     },
@@ -182,8 +179,7 @@
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 6.35,
-          "currentEquation": "6.35"
+          "ioValue": 6.35
         },
         {
           "name": "Passes",
@@ -191,13 +187,11 @@
         },
         {
           "name": "Speed",
-          "ioValue": 800,
-          "currentEquation": "800"
+          "ioValue": 800
         },
         {
           "name": "Cut Through",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "Part Name",
