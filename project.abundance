@@ -8,14 +8,14 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.770890545311887,
-      "y": 0.4927797833935018,
+      "x": 0.6951745782659867,
+      "y": 0.2635379061371841,
       "uniqueID": "id-2"
     },
     {
       "atomType": "Rectangle",
-      "x": 0.07728520988622989,
-      "y": 0.36101083032490977,
+      "x": 0.08866222047861907,
+      "y": 0.1263537906137184,
       "uniqueID": "id-94",
       "ioValues": [
         {
@@ -32,8 +32,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2416633974107493,
-      "y": 0.31407942238267145,
+      "x": 0.26363279717536287,
+      "y": 0.11552346570397112,
       "uniqueID": "id-102",
       "ioValues": [
         {
@@ -62,28 +62,9 @@
       ]
     },
     {
-      "atomType": "Difference",
-      "x": 0.6214201647704982,
-      "y": 0.1552346570397112,
-      "uniqueID": "id-117"
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.4448803452334249,
-      "y": 0.8826714801444043,
-      "uniqueID": "id-121",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 6,
-          "currentEquation": "6"
-        }
-      ]
-    },
-    {
       "atomType": "Export",
-      "x": 0.7720674774421342,
-      "y": 0.759927797833935,
+      "x": 0.5751275009807768,
+      "y": 0.5776173285198556,
       "uniqueID": "id-131",
       "ioValues": [
         {
@@ -178,8 +159,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.47469595919968616,
-      "y": 0.6281588447653429,
+      "x": 0.37583366025892506,
+      "y": 0.7021660649819494,
       "uniqueID": "id-187",
       "ioValues": [
         {
@@ -192,15 +173,15 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 3,
+          "currentEquation": "3"
         }
       ]
     },
     {
       "atomType": "Rectangle",
-      "x": 0.0768928991761475,
-      "y": 0.1335740072202166,
+      "x": 0.06198509219301687,
+      "y": 0.3628158844765343,
       "uniqueID": "id-193",
       "ioValues": [
         {
@@ -217,8 +198,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.15064731267163595,
-      "y": 0.11552346570397112,
+      "x": 0.15260886622204786,
+      "y": 0.33574007220216606,
       "uniqueID": "id-197",
       "ioValues": [
         {
@@ -238,8 +219,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.24401726167124363,
-      "y": 0.11010830324909747,
+      "x": 0.26245586504511575,
+      "y": 0.3646209386281588,
       "uniqueID": "id-203",
       "ioValues": [
         {
@@ -254,6 +235,69 @@
       "x": 0.34091800706159275,
       "y": 0.1407942238267148,
       "uniqueID": "id-207"
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.4472342094939192,
+      "y": 0.2382671480144404,
+      "uniqueID": "id-211",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "cut-extrude-rectangle-157-81-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-extrude-move-rectangle-153-77-0-0-0-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-cut-extrude-rectangle-153-77-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-extrude-move-text-Handy Garage-{\"startX\":0,\"startY\":0,\"fontSize\":16,\"font\":\"ROBOTO\"}--48-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-3",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -263,7 +307,7 @@
       "ap2ID": "id-102"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "geometry1",
       "ap1ID": "id-102",
       "ap2ID": "id-207"
     },
@@ -271,16 +315,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-109",
       "ap2ID": "id-179"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-117",
-      "ap2ID": "id-131"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-117",
-      "ap2ID": "id-2"
     },
     {
       "ap2Name": "geometry",
@@ -308,6 +342,11 @@
       "ap2ID": "id-187"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-187",
+      "ap2ID": "id-211"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-193",
       "ap2ID": "id-197"
@@ -318,9 +357,24 @@
       "ap2ID": "id-203"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "geometry2",
       "ap1ID": "id-203",
       "ap2ID": "id-207"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-207",
+      "ap2ID": "id-211"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-211",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-211",
+      "ap2ID": "id-131"
     }
   ],
   "unitsKey": "MM",
