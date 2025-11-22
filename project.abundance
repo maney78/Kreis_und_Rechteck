@@ -32,9 +32,46 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4464495880737544,
-      "y": 0.43321299638989175,
+      "x": 0.46528050215770894,
+      "y": 0.40613718411552346,
       "uniqueID": "id-102",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 8,
+          "currentEquation": "8"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.27775598273832874,
+      "y": 0.7382671480144405,
+      "uniqueID": "id-109",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 130,
+          "currentEquation": "130"
+        },
+        {
+          "name": "y length",
+          "ioValue": 80,
+          "currentEquation": "80"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.6253432718713221,
+      "y": 0.4909747292418773,
+      "uniqueID": "id-117"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3797567673597489,
+      "y": 0.6967509025270758,
+      "uniqueID": "id-121",
       "ioValues": [
         {
           "name": "height",
@@ -49,6 +86,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-94",
       "ap2ID": "id-102"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-109",
+      "ap2ID": "id-121"
     }
   ],
   "unitsKey": "MM",
