@@ -20,13 +20,13 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 155,
-          "currentEquation": "155"
+          "ioValue": 157,
+          "currentEquation": "157"
         },
         {
           "name": "y length",
-          "ioValue": 80,
-          "currentEquation": "80"
+          "ioValue": 81,
+          "currentEquation": "81"
         }
       ]
     },
@@ -45,8 +45,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.27697136131816397,
-      "y": 0.7148014440433212,
+      "x": 0.2640251078854453,
+      "y": 0.8826714801444043,
       "uniqueID": "id-109",
       "ioValues": [
         {
@@ -75,8 +75,8 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 7,
-          "currentEquation": "7"
+          "ioValue": 6,
+          "currentEquation": "6"
         }
       ]
     },
@@ -96,8 +96,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 4,
+          "currentEquation": "4"
         }
       ]
     },
@@ -124,6 +124,60 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Kreis_und_Rechteck"
+    },
+    {
+      "atomType": "Text",
+      "x": 0.1887014515496273,
+      "y": 0.5342960288808664,
+      "uniqueID": "id-139",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 16,
+          "currentEquation": "16"
+        },
+        {
+          "name": "Text",
+          "ioValue": "Handy Garage"
+        }
+      ],
+      "fontFamily": "ROBOTO",
+      "selectedFontIndex": 0
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.36249509611612396,
+      "y": 0.5433212996389891,
+      "uniqueID": "id-143",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4413495488426834,
+      "y": 0.5812274368231047,
+      "uniqueID": "id-147",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": -48,
+          "currentEquation": "-48"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 4,
+          "currentEquation": "4"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -161,6 +215,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-125",
       "ap2ID": "id-121"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-139",
+      "ap2ID": "id-143"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-143",
+      "ap2ID": "id-147"
     }
   ],
   "unitsKey": "MM",
