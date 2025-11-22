@@ -69,8 +69,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.5045115731659474,
-      "y": 0.776173285198556,
+      "x": 0.4833267948214986,
+      "y": 0.8086642599277979,
       "uniqueID": "id-121",
       "ioValues": [
         {
@@ -109,7 +109,7 @@
       "ioValues": [
         {
           "name": "File Type",
-          "ioValue": "SVG"
+          "ioValue": "STL"
         },
         {
           "name": "Resolution (dpi)",
@@ -120,7 +120,7 @@
           "ioValue": "Kreis_und_Rechteck"
         }
       ],
-      "type": "SVG",
+      "type": "STL",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Kreis_und_Rechteck"
@@ -174,10 +174,16 @@
         },
         {
           "name": "zDist",
-          "ioValue": 4,
-          "currentEquation": "4"
+          "ioValue": 8,
+          "currentEquation": "8"
         }
       ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.5217732444095724,
+      "y": 0.6209386281588448,
+      "uniqueID": "id-153"
     }
   ],
   "allConnectors": [
@@ -197,19 +203,19 @@
       "ap2ID": "id-125"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-117",
-      "ap2ID": "id-2"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-117",
       "ap2ID": "id-131"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-117",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry1",
       "ap1ID": "id-121",
-      "ap2ID": "id-117"
+      "ap2ID": "id-153"
     },
     {
       "ap2Name": "geometry",
@@ -225,6 +231,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-143",
       "ap2ID": "id-147"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-147",
+      "ap2ID": "id-153"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-153",
+      "ap2ID": "id-117"
     }
   ],
   "unitsKey": "MM",
