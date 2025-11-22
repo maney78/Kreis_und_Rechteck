@@ -1,43 +1,27 @@
 {
   "atomType": "Molecule",
-  "name": "Kreis_und_Rechteck",
   "x": 0,
   "y": 0,
   "uniqueID": "id-1",
-  "ioValues": [],
+  "name": "Kreis_und_Rechteck",
   "topLevel": true,
   "allAtoms": [
     {
       "atomType": "Output",
-      "name": "Output",
-      "x": 0.98,
-      "y": 0.5,
-      "uniqueID": "id-2",
-      "ioValues": []
-    },
-    {
-      "atomType": "Circle",
-      "name": "Circle",
-      "x": 0.20870929776382893,
-      "y": 0.5649819494584838,
-      "uniqueID": "id-4",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 100
-        }
-      ]
+      "x": 0.7045900353079638,
+      "y": 0.3574007220216606,
+      "uniqueID": "id-2"
     },
     {
       "atomType": "Rectangle",
-      "name": "Rectangle",
-      "x": 0.19537073362102786,
-      "y": 0.296028880866426,
-      "uniqueID": "id-7",
+      "x": 0.27775598273832874,
+      "y": 0.40613718411552346,
+      "uniqueID": "id-94",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 100
+          "ioValue": 150,
+          "currentEquation": "150"
         },
         {
           "name": "y length",
@@ -47,207 +31,27 @@
       ]
     },
     {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.36563358179678307,
-      "y": 0.22021660649819494,
-      "uniqueID": "id-11",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 50,
-          "currentEquation": "50"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Fusion",
-      "name": "Fusion",
-      "x": 0.6814437034131032,
-      "y": 0.2996389891696751,
-      "uniqueID": "id-17",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "move-rectangle-100-100-0-50-0",
-            "dimension": "2D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": "circle-50",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
-        }
-      ],
-      "unionType": "Fusion"
-    },
-    {
       "atomType": "Extrude",
-      "name": "Extrude",
-      "x": 0.8685759121224009,
-      "y": 0.27075812274368233,
-      "uniqueID": "id-22",
+      "x": 0.4464495880737544,
+      "y": 0.43321299638989175,
+      "uniqueID": "id-102",
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 5
+          "ioValue": 5,
+          "currentEquation": "5"
         }
       ]
-    },
-    {
-      "atomType": "Export",
-      "name": "Export",
-      "x": 0.6908591604550804,
-      "y": 0.6660649819494585,
-      "uniqueID": "id-53",
-      "ioValues": [
-        {
-          "name": "File Type",
-          "ioValue": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Kreis_und_Rechteck"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Kreis_und_Rechteck"
-    },
-    {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.8979992153785799,
-      "y": 0.6877256317689531,
-      "uniqueID": "id-58",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 6.35
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 800
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Kreis_und_Rechteck"
-        }
-      ],
-      "partName": "Kreis_und_Rechteck",
-      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
     {
-      "ap1Name": "geometry",
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-4",
-      "ap2ID": "id-17"
-    },
-    {
-      "ap1Name": "geometry",
       "ap2Name": "geometry",
-      "ap1ID": "id-7",
-      "ap2ID": "id-11"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-11",
-      "ap2ID": "id-17"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "id-17",
-      "ap2ID": "id-22"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-22",
-      "ap2ID": "id-2"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "id-22",
-      "ap2ID": "id-53"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "id-22",
-      "ap2ID": "id-58"
+      "ap1ID": "id-94",
+      "ap2ID": "id-102"
     }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": [],
   "filetypeVersion": 1
 }
